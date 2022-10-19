@@ -13,7 +13,7 @@
 
 ### Proyecto de Argentina Programa
 
-<img src="./assets/APLogo.png" height="100"/>
+<img src=".src/assets/APLogo.png" height="100"/>
 
 
 # Qué llevo hecho?
