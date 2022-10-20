@@ -231,12 +231,15 @@ nav ul li {
   margin-bottom: var(--bottom-margin);
 }
 
+<<<<<<< HEAD
 .software{
   align-items: center;
   text-align: center;
 }
 
 
+=======
+>>>>>>> main
 .softcard{
   margin: 10px;
 }
