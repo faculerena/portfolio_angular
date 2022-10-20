@@ -13,6 +13,7 @@ import { GoupComponent } from './components/goup/goup.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { BannerComponent } from './components/banner/banner.component';
 import { IonicModule } from '@ionic/angular';
+import { SoftwareComponent } from './components/software/software.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { IonicModule } from '@ionic/angular';
     RedesComponent,
     GoupComponent,
     NavbarComponent,
-    BannerComponent
+    BannerComponent,
+    SoftwareComponent
   ],
   imports: [
     BrowserModule,
