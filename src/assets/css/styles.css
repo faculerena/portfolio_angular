@@ -5,11 +5,11 @@
   --normal-font: 400;
   --bold-font: 700;
   --bolder-font: 900;
-  --bg-color: #fcfcfc;
-  --primary-color: #4756df;
-  --secondary-color: #ff7235;
-  --primary-shadow: #8b8eaf;
-  --secondary-shadow: #a17a69;
+  --bg-color: #121212;
+  --primary-color: #FFFFFF;
+  --secondary-color: #533483;
+  --primary-shadow: #E0603E;
+  --secondary-shadow: #E0603E;
   --bottom-margin: 0.5rem;
   --bottom-margin-2: 1rem;
   --line-height: 1.7rem;
@@ -20,6 +20,8 @@
 
 html {
   scroll-behavior: smooth;
+  background: #121212;
+  color:#FFFFFF;
 }
 
 /* CSS Standard */
@@ -44,7 +46,7 @@ a:hover {
 }
 
 body {
-  font-family: var(--font-family);
+    font-family: var(--font-family);
   height: 100vh;
   width: 100vw;
   overflow: auto;
@@ -160,7 +162,7 @@ nav ul li {
 .mas-info p {
   line-height: var(--line-height);
   padding: 0.4rem;
-  text-align: center;
+  text-align: left;
 }
 
 
@@ -229,7 +231,9 @@ nav ul li {
   margin-bottom: var(--bottom-margin);
 }
 
-
+.softcard{
+  margin: 10px;
+}
 
 
 
@@ -237,6 +241,7 @@ nav ul li {
 /* Seccion de contacto, recordar que no esta en uso */
 .contacto {
   margin-top: 2rem;
+  
 }
 
 .contacto h2 {
@@ -269,6 +274,7 @@ nav ul li {
   padding-bottom: 10px;
   border-radius: 5px;
   border: none;
+  background-color: #121212;
   border: 2px outset var(--primary-color);
   font-size: 0.875rem;
   outline: none;
@@ -283,7 +289,7 @@ nav ul li {
   width: 100%;
   padding: 10px;
   margin: 10px 0;
-  background-color: #fff;
+  background-color: #181818;
   border: 2px solid var(--primary-color);
   border-radius: 5px;
   font-size: 1rem;
@@ -344,17 +350,17 @@ footer {
 
 /* General */
 .icon-card {
-  background-color: #fff;
+  background-color: #181818;
   border-radius: 11px;
-  box-shadow: 0 3px 10px var(--secondary-shadow);
+  box-shadow: 0 0px 10px var(--secondary-shadow);
   padding: 20px;
   margin: 10px;
 }
 
 .proyecto-card {
-  background-color: #fff;
+  background-color: #181818;
   border-radius: 11px;
-  box-shadow: 0 3px 10px var(--primary-shadow);
+  box-shadow: 0 0px 10px var(--primary-shadow);
   padding: 20px;
   margin: 10px;
 }

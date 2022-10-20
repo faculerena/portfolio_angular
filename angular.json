@@ -69,7 +69,9 @@
               }
 
             ],
-            "scripts": []
+            "scripts": [
+               "node_modules/marked/marked.min.js"
+            ]
           },
           "configurations": {
             "production": {
