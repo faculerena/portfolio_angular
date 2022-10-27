@@ -25,8 +25,8 @@
 |1|:heavy_check_mark:|
 |2|:heavy_check_mark:|
 |3|:heavy_check_mark:|
-|4|:x:|
-|5|:x:|
+|4|:heavy_check_mark:|
+|5|:diamond_shape_with_a_dot_inside:|
 |6|:x:|
 |7|:x:|
 |8|:x:|
