@@ -4,7 +4,7 @@
 ![Fedora](https://img.shields.io/badge/Fedora-294172?style=for-the-badge&logo=fedora&logoColor=white) ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white) 
 
 ## Lenguajes
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![Bootstrap](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![Bootstrap](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 
 ## Hosting
 
@@ -15,26 +15,9 @@
 
 <img src="./src/assets/APLogo.png" height="100"/>
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/b2dba79d-f15b-42d0-a3e1-2107b8120920/deploy-status)](https://app.netlify.com/sites/stalwart-blini-9a0c60/deploys)
 
-# Qué llevo hecho?
-
-## Checklist de Temas
-
-| Unidad | Estado |
-| :---: | :---: |
-|1|:heavy_check_mark:|
-|2|:heavy_check_mark:|
-|3|:heavy_check_mark:|
-|4|:heavy_check_mark:|
-|5|:diamond_shape_with_a_dot_inside:|
-|6|:x:|
-|7|:x:|
-|8|:x:|
-|9|:x:|
-
-## Portfolio
-
-La página está disponible **[aca](https://faculerena.com.ar/)**
+La página está disponible **[aca](https://angular.faculerena.com.ar/)**
 
 
 ## Base Editable
