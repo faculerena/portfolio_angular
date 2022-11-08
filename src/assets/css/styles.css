@@ -45,6 +45,8 @@ body {
   color: var(--text-color);
 }
 
+
+
 /*#region*/ /*HERO*/
 .hero {
   display: flex;

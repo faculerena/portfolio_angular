@@ -1,5 +1,5 @@
 nav {
-  position: sticky;
+  position: static;
   top: 0;
   left: 0;
   z-index: 1;
@@ -25,6 +25,7 @@ ul {
 a {
   text-decoration: none;
   color: var(--primary-color);
+  font-size: 20px;
 }
 
 a:hover {
@@ -54,8 +55,8 @@ nav a {
   transition: var(--transition);
 }
 nav a:hover {
-  color: var(--secondary-color);
-  border-bottom: 2px solid var(--secondary-color);
+  color: var(--secondary-shadow);
+  border-bottom: 2px solid var(--secondary-shadow);
 }
 
 nav ul {
@@ -66,3 +67,25 @@ nav ul {
 nav ul li {
   font-weight: var(--bold-font);
 }
+
+h2 {
+    font-size: 40px;
+  }
+
+
+  @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+
+h1 {
+  font-family: var(--font-family);
+  font-size: 65px;
+}
+
+
+
+
+
+
+
+
+
+
