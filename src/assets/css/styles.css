@@ -1,112 +1,51 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
 
 :root {
-  --font-family: 'Roboto Mono', monospace;
+  --font-family: "Roboto Mono", monospace;
   --normal-font: 400;
   --bold-font: 700;
   --bolder-font: 900;
-  --bg-color: #121212;
-  --primary-color: #FFFFFF;
-  --secondary-color: #533483;
-  --primary-shadow: #E0603E;
-  --secondary-shadow: #E0603E;
   --bottom-margin: 0.5rem;
   --bottom-margin-2: 1rem;
   --line-height: 1.7rem;
   --transition: 0.3s;
 }
 
-
-
 html {
+  --bg-color: #ffffff;
+  --text-color: #121212;
+  --primary-color: #01329c;
+  --secondary-color: #533483;
+  --primary-shadow: #001c58;
+  --secondary-shadow: #001c58;
   scroll-behavior: smooth;
-  background: #121212;
-  color:#FFFFFF;
+  background-color: var(--bg-color);
 }
 
-/* CSS Standard */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+@media (prefers-color-scheme: dark) {
+  html {
+    --bg-color: #121212;
+    --text-color: #c6c6c6;
+    --primary-color: #e0603e;
+    --secondary-color: #533483;
+    --primary-shadow: #ffffff;
+    --secondary-shadow: #a03a1e;
+    scroll-behavior: smooth;
+    background-color: var(--bg-color);
+  }
 }
 
-ul {
-  list-style-type: none;
-  height: 100%; 
-}
-
-a {
-  text-decoration: none;
-  color: var(--primary-color);
-}
-
-a:hover {
-  color: var(--secondary-color);
-}
 
 body {
+  background-color: var(--bg-color);
   font-family: var(--font-family);
   height: 100vh;
   width: 100vw;
   overflow: auto;
+  color: var(--text-color);
 }
 
-
-section {
-  max-width: 1100px;
-  margin: auto; 
-}
-
-nav {
-  position: sticky;
-  top: 0;
-  left: 0;
-  z-index: 1;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 1.5rem 3.5rem;
-  background-color: var(--bg-color);
-  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
-}
-
-nav h1 {
-  color: var(--primary-color);
-}
-
-nav a {
-  color: var(--primary-color);
-  transition: var(--transition);
-}
-nav a:hover {
-  color: var(--secondary-color);
-  border-bottom: 2px solid var(--secondary-color);
-}
-
-nav ul {
-  display: flex;
-  gap: 1.9rem;
-}
-
-nav ul li {
-  font-weight: var(--bold-font);
-}
-
-.burger-menu {
-  color: var(--primary-color);
-  font-size: 2rem;
-  border: 0;
-  background-color: transparent;
-  cursor: pointer;
-  display: none;
-}
-
-
-
-
-
-/* Hero */
+/*#region*/ /*HERO*/
 .hero {
   display: flex;
   align-items: center;
@@ -114,6 +53,7 @@ nav ul li {
   gap: 2.5rem;
   max-width: 68.75rem;
   margin: auto;
+  background-color: var(--bg-color);
 }
 
 .hero img {
@@ -141,15 +81,13 @@ nav ul li {
   text-align: center;
 }
 
-
-
 .bio-text {
   text-align: center;
 }
 
+/*#endregion*/
 
-
-/* Mas sobre mi */
+/*#region*/ /*About Me*/
 .mas-info {
   background-color: var(--bg-color);
   padding: 1rem 6rem;
@@ -166,8 +104,9 @@ nav ul li {
   text-align: left;
 }
 
+/*#endregion*/
 
-/* CV Portfolio */
+/*#region*/ /*curriculum*/
 .curriculum {
   max-width: 68.75rem;
   margin: auto;
@@ -188,10 +127,9 @@ nav ul li {
   height: 11.25rem;
 }
 
+/*#endregion*/
 
-
-
-/* proyectos section */
+/*#region*/ /*proyectos*/
 .proyectos {
   background-color: var(--bg-color);
   padding: 32px 0;
@@ -231,21 +169,20 @@ nav ul li {
 .proyecto-details {
   margin-bottom: var(--bottom-margin);
 }
-.software{
+.software {
   align-items: center;
   text-align: center;
 }
-.softcard{
+.softcard {
   margin: 10px;
 }
+/*#endregion*/
 
-
-
-
-/* Seccion de contacto, recordar que no esta en uso */
+/*#region*/ /*contacto*/
 .contacto {
   margin-top: 2rem;
-  
+  color: var(--text-color);
+  background-color: var(--bg-color);
 }
 
 .contacto h2 {
@@ -258,13 +195,13 @@ nav ul li {
   margin: 0 auto;
   padding: 0.938rem;
   border-radius: 5px;
-  box-shadow: 0 3px 10px var(--secondary-shadow);
+  box-shadow: 0 0px 10px var(--secondary-shadow);
 }
 
 .contacto-form-container label {
   line-height: 2.7em;
   font-weight: var(--bold-font);
-  color: var(--primary-color);
+  color: var(--text-color);
 }
 
 .contacto-form-container textarea {
@@ -278,22 +215,22 @@ nav ul li {
   padding-bottom: 10px;
   border-radius: 5px;
   border: none;
-  background-color: #121212;
-  border: 2px outset var(--primary-color);
+  background-color: var(--bg-color);
+  border: 3px outset var(--primary-color);
   font-size: 0.875rem;
   outline: none;
 }
 
 .input-field::placeholder {
   padding: 0.5rem;
-  color: var(--primary-color);
+  color: var(--text-color);
 }
 
 .submit-btn {
   width: 100%;
   padding: 10px;
   margin: 10px 0;
-  background-color: #181818;
+  background-color: var(--bg-color);
   border: 2px solid var(--primary-color);
   border-radius: 5px;
   font-size: 1rem;
@@ -307,10 +244,9 @@ nav ul li {
   cursor: pointer;
 }
 
+/*#endregion*/
 
-
-
-/* Redes Sociales */
+/*#region*/ /*redes sociales*/
 .socials {
   display: flex;
   float: right;
@@ -324,38 +260,33 @@ nav ul li {
   width: 3rem;
   height: 3rem;
 }
+/*#endregion*/
 
-
-
-
-/* Boton Inicio */
+/*#region*/ /*boton arriba*/
 .scroll-up {
   position: absolute;
   right: 0.5%;
   bottom: 3%;
   cursor: pointer;
 }
-
 .up-arrow {
   width: 3rem;
   height: 3rem;
 }
+/*#endregion*/
 
-
-/* Pie de pagina */
+/*#region*/ /*footer*/
 footer {
   background-color: var(--bg-color);
   padding: 1.25rem;
   text-align: center;
   margin: 2rem 0 0;
 }
+/*#endregion*/
 
-
-
-
-/* General */
+/*#region*/  /*General*/
 .icon-card {
-  background-color: #181818;
+  background-color: var(--bg-color);
   border-radius: 11px;
   box-shadow: 0 0px 10px var(--secondary-shadow);
   padding: 20px;
@@ -363,14 +294,16 @@ footer {
 }
 
 .proyecto-card {
-  background-color: #181818;
+  background-color: var(--bg-color);
   border-radius: 11px;
-  box-shadow: 0 0px 10px var(--primary-shadow);
+  box-shadow: 0 0px 10px var(--primary-color);
   padding: 20px;
   margin: 10px;
 }
 
-/* Media (queries) */
+/*#endregion*/
+
+/*#region*/  /*media queries*/
 @media screen and (max-width: 720px) {
   nav {
     padding: 1.5rem 1rem;
@@ -464,3 +397,5 @@ footer {
     max-width: 17.75rem;
   }
 }
+
+/*#endregion*/ 

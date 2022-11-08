@@ -27,7 +27,7 @@ import { SoftwareComponent } from './components/software/software.component';
     GoupComponent,
     NavbarComponent,
     BannerComponent,
-    SoftwareComponent
+    SoftwareComponent,
   ],
   imports: [
     BrowserModule,
